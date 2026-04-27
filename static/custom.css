@@ -1,0 +1,4 @@
+body { font-family: Arial, sans-serif; margin: 20px; }
+#app { max-width: 600px; margin: auto; }
+.todo-item { display: flex; justify-content: space-between; padding: 8px; border-bottom: 1px solid #ddd; }
+.todo-item.completed { text-decoration: line-through; color: #888; }
