@@ -1,0 +1,8 @@
+-- This migration file is retained for reference.
+-- The current implementation uses a JSON file store instead of SQLite.
+-- If you wish to switch back to SQLite, you can create the table with:
+-- CREATE TABLE todos (
+--   id INTEGER PRIMARY KEY AUTOINCREMENT,
+--   title TEXT NOT NULL,
+--   completed INTEGER NOT NULL DEFAULT 0
+-- );
